@@ -1,0 +1,1 @@
+#  Define el cromosoma y cómo se muta/cruza

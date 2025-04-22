@@ -1,0 +1,1 @@
+# Este modulo de genetico contiene las funciones necesarias para la implementacion de un algoritmo genetico. Este algoritmo se basa en la

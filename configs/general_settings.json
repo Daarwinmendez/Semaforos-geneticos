@@ -1,0 +1,25 @@
+{
+    "simulacion": {
+      "sumo_config_file": "Escenarios/1. Zona Universitaria (UASD)/osm.sumocfg",
+      "duracion": 1000,
+      "usar_gui": true
+    },
+    "algoritmo_genetico": {
+      "generaciones": 30,
+      "poblacion": 10,
+      "prob_mutacion": 0.2,
+      "prob_cruce": 0.8,
+      "seleccion": "torneo",
+      "elitismo": true
+    },
+    "fitness": {
+      "peso_delay": 0.6,
+      "peso_throughput": 0.4
+    },
+    "exportacion": {
+      "guardar_json": true,
+      "guardar_logs": true,
+      "carpeta_salida": "resultados/uasd/"
+    }
+  }
+  
