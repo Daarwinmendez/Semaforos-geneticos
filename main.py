@@ -47,7 +47,12 @@ traci.close()
 
 
 from simulacion.controlador import correr_simulacion, correr_simulacion_limited
+from utils.analisis_road_rage import analizar_road_rage
+from utils.resumen_por_semaforo import resumen_por_semaforo
+
 
 #correr_simulacion("Escenarios/1. Zona Universitaria (UASD)/osm.sumocfg")
 path = "Escenarios/1. Zona Universitaria (UASD)/osm.sumocfg"
 correr_simulacion_limited(cfg_path=path, steps=200)
+analizar_road_rage(path_csv="resultados/metrics_test.csv", salida_csv="resultados/road_rage_por_step.csv")
+resumen_por_semaforo(path_csv="resultados/metrics_test.csv", salida_csv="resultados/resumen_semaforos.csv")
