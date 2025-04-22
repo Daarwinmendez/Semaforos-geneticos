@@ -3,11 +3,16 @@ import pandas as pd
 import math
 
 class MetricsLogger:
-    def __init__(self, semaforo_ids, vehiculos_esperados=None):
+    def __init__(self, semaforo_ids):
         self.semaforo_ids = semaforo_ids
-        self.vehiculos_esperados = vehiculos_esperados or {}
-        self.depart_times = {}  # para generar depart_time si no se da
+        self.semaforo_posiciones = {
+            s_id: traci.lane.getShape(traci.trafficlight.getControlledLanes(s_id)[0])[-1]
+            for s_id in semaforo_ids
+        }
+        self.depart_times = {}
         self.records = []
+        self.estado_anterior = {}  # Guarda si el vehículo estaba detenido o no
+        self.contador_stops = {}   # Cuenta cuántas veces se detuvo
 
     def get_vehicle_delay(self, veh_id):
         current_time = traci.simulation.getTime()
@@ -15,7 +20,6 @@ class MetricsLogger:
             self.depart_times[veh_id] = current_time
         depart_time = self.depart_times[veh_id]
 
-        # estimar distancia recorrida desde que entró (opcional)
         distancia = traci.vehicle.getDistance(veh_id)
         velocidad = traci.vehicle.getAllowedSpeed(veh_id)
         if velocidad > 0:
@@ -27,7 +31,7 @@ class MetricsLogger:
         return traci.vehicle.getWaitingTime(veh_id)
 
     def get_vehicle_stops(self, veh_id):
-        return traci.vehicle.getStops(veh_id)
+        return self.contador_stops.get(veh_id, 0)
 
     def get_position(self, veh_id):
         return traci.vehicle.getPosition(veh_id)
@@ -39,10 +43,29 @@ class MetricsLogger:
         lanes = traci.trafficlight.getControlledLanes(semaforo_id)
         return sum(traci.lane.getLastStepHaltingNumber(lane) for lane in lanes)
 
+    def asignar_semaforo_mas_cercano(self, pos):
+        min_dist = float("inf")
+        semaforo_cercano = None
+        for s_id, s_pos in self.semaforo_posiciones.items():
+            dist = math.dist(pos, s_pos)
+            if dist < min_dist:
+                min_dist = dist
+                semaforo_cercano = s_id
+        return semaforo_cercano
+
     def update(self, step):
         for veh_id in traci.vehicle.getIDList():
             pos = self.get_position(veh_id)
+            semaforo_cercano = self.asignar_semaforo_mas_cercano(pos)
             speed = self.get_speed(veh_id)
+            detenido = speed < 0.1
+
+            # Control de cambio de estado
+            estado_anterior = self.estado_anterior.get(veh_id, False)
+            if not estado_anterior and detenido:
+                self.contador_stops[veh_id] = self.contador_stops.get(veh_id, 0) + 1
+            self.estado_anterior[veh_id] = detenido
+
             stops = self.get_vehicle_stops(veh_id)
             delay = self.get_vehicle_delay(veh_id)
             waiting = self.get_waiting_time(veh_id)
@@ -51,6 +74,7 @@ class MetricsLogger:
                 "tipo": "vehiculo",
                 "step": step,
                 "veh_id": veh_id,
+                "semaforo_id": semaforo_cercano,
                 "delay": delay,
                 "waiting_time": waiting,
                 "stops": stops,
@@ -78,3 +102,5 @@ class MetricsLogger:
     def clear(self):
         self.records = []
         self.depart_times = {}
+        self.estado_anterior = {}
+        self.contador_stops = {}
