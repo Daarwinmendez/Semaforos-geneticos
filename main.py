@@ -1,30 +1,42 @@
 import traci
-#from utils.helpers import calcular_road_rage, contar_vehiculos
-#from optimizador.cliente import ClienteSemaforo
-'''from utils.helpers import contar_vehiculos
+import json
+import os
 
-cantidad_carros = contar_vehiculos("mapa/osm.passenger.rou.xml")
-cantidad_truck = contar_vehiculos("mapa/osm.truck.rou.xml")
-
-print(f"Cantidad de Carros: {cantidad_carros}")
-print(f"Cantidad de Camiones: {cantidad_truck}")
-'''
+iteration = 1
+os.makedirs("configs/Semaforos/", exist_ok=True)
+os.makedirs(f"configs/Semaforos/iter_{iteration}", exist_ok=True)
 
 traci.start(["sumo-gui", "-c", "mapa/osm.sumocfg"])
-
-# Perform one simulation step to initialize the simulation
 traci.simulationStep()
 
-# Retrieve and print traffic light IDs and configurations
 traffic_lights = traci.trafficlight.getIDList()
-print(f"Traffic Lights: {traffic_lights}")
 
 for tls_id in traffic_lights:
-    configurations = traci.trafficlight.getCompleteRedYellowGreenDefinition(tls_id)
-    print(f"Configurations for {tls_id}:")
-    for config in configurations:
-        print(config)
+    configs = traci.trafficlight.getAllProgramLogics(tls_id)
 
+    config_serializable = []
+    for logic in configs:
+        config_serializable.append({
+            "id": tls_id,
+            "type": logic.type,
+            "programID": logic.programID,
+            "offset": getattr(logic, "offset", 0),  # ← CAMBIADO AQUÍ
+            "phases": [
+                {
+                    "duration": phase.duration,
+                    "state": phase.state,
+                    "minDur": getattr(phase, "minDur", None),
+                    "maxDur": getattr(phase, "maxDur", None)
+                }
+                for phase in logic.phases
+            ]
+        })
+
+    
+    with open(f"configs/Semaforos/iter_{iteration}/{tls_id}.json", "w") as f:
+        json.dump(config_serializable, f, indent=4)
+
+# Continuar simulaciónc
 for step in range(1000):
     traci.simulationStep()
     for v in traci.vehicle.getIDList():
