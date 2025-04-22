@@ -2,11 +2,11 @@ import traci
 import json
 import os
 
-iteration = 1
+'''iteration = 1
 os.makedirs("configs/Semaforos/", exist_ok=True)
 os.makedirs(f"configs/Semaforos/iter_{iteration}", exist_ok=True)
 
-traci.start(["sumo-gui", "-c", "mapa/osm.sumocfg"])
+traci.start(["sumo-gui", "-c", "Escenarios/1. Zona Universitaria (UASD)/osm.sumocfg"])
 traci.simulationStep()
 
 traffic_lights = traci.trafficlight.getIDList()
@@ -43,3 +43,11 @@ for step in range(1000):
         print(f"{v}: {traci.vehicle.getPosition(v)}")
 
 traci.close()
+'''
+
+
+from simulacion.controlador import correr_simulacion, correr_simulacion_limited
+
+#correr_simulacion("Escenarios/1. Zona Universitaria (UASD)/osm.sumocfg")
+path = "Escenarios/1. Zona Universitaria (UASD)/osm.sumocfg"
+correr_simulacion_limited(cfg_path=path, steps=200)
