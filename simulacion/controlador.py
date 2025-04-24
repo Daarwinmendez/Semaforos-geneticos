@@ -1,51 +1,41 @@
 import traci
 from simulacion.metrics_logger import MetricsLogger
 from simulacion.metrics import calcular_retraso_vehiculo
+import os
+import json
 
-def correr_simulacion(cfg_path):
-    traci.start(["sumo-gui", "-c", cfg_path])
+def aplicar_configuracion_cromosoma(carpeta_config):
+    for archivo in os.listdir(carpeta_config):
+        if archivo.endswith(".json"):
+            path = os.path.join(carpeta_config, archivo)
+            with open(path, "r", encoding="utf-8") as f:
+                config = json.load(f)
+                if isinstance(config, list):
+                    print(f"[INFO] Archivo {archivo} es una lista (cluster); ignorado.")
+                    continue
+                tls_id = config["id"]
+                phases = []
+                for fase in config["phases"]:
+                    duration = round(fase["duration"])
+                    state = fase["state"]
+                    minDur = int(fase.get("minDur", duration))
+                    maxDur = int(fase.get("maxDur", duration))
+                    phases.append(traci.trafficlight.Phase(duration, state, minDur, maxDur))
+                logic = traci.trafficlight.Logic(
+                    config["programID"],
+                    int(config.get("type", 0)),
+                    0,  # currentPhaseIndex
+                    phases
+                )
+                # Usa la función recomendada (soporta ambos nombres en versiones nuevas)
+                traci.trafficlight.setProgramLogic(tls_id, logic)
+                print(f"[✔] Aplicado TLS {tls_id} | fases={len(config['phases'])}")
 
-    semaforos = traci.trafficlight.getIDList()
-    logger = MetricsLogger(semaforo_ids=semaforos)
-
-    while traci.simulation.getMinExpectedNumber() > 0:
-        traci.simulationStep()
-        step = traci.simulation.getTime()
-        logger.update(step)
-
-    traci.close()
-    logger.export_to_csv("resultados/metrics_por_step.csv")
-
-def correr_simulacion_multiples(cfg_path):
-    traci.start(["sumo-gui", "-c", cfg_path])
-
-    semaforos = traci.trafficlight.getIDList()
-    semaforo_pos_dict = {
-        tls_id: traci.lane.getShape(traci.trafficlight.getControlledLanes(tls_id)[0])[-1]
-        for tls_id in semaforos
-    }
-
-    delay_por_tls = {tls_id: [] for tls_id in semaforos}
-
-    while traci.simulation.getMinExpectedNumber() > 0:
-        traci.simulationStep()
-        for veh_id in traci.vehicle.getIDList():
-            for tls_id, semaforo_pos in semaforo_pos_dict.items():
-                delay = calcular_retraso_vehiculo(veh_id, semaforo_pos)
-                if delay is not None:
-                    delay_por_tls[tls_id].append(delay)
-
-    traci.close()
-
-    resultados = {
-        tls_id: (sum(delays) / len(delays) if delays else None)
-        for tls_id, delays in delay_por_tls.items()
-    }
-    return resultados
-
-def correr_simulacion_limited(cfg_path, steps=500, salida="resultados/metrics_test.csv"):
+def correr_simulacion_limited(cfg_path, steps=500, salida="resultados/metrics_test.csv", carpeta_config="configs/Semaforos/iter_1"):
     print("Iniciando simulación limitada...")
-    traci.start(["sumo-gui", "-c", cfg_path])
+    traci.start(["sumo", "-c", cfg_path])
+
+    aplicar_configuracion_cromosoma(carpeta_config)  # <- Aplicamos configuración antes de simular
 
     semaforos = traci.trafficlight.getIDList()
     logger = MetricsLogger(semaforo_ids=semaforos)
