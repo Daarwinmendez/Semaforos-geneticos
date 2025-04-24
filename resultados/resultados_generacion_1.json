@@ -1,0 +1,30 @@
+[
+    {
+        "indice": 0,
+        "cromosoma": {},
+        "fitness": 0.012206,
+        "carpeta_conf": "configs/Semaforos/gen1_ind1",
+        "carpeta_resultados": "resultados/gen1_ind1"
+    },
+    {
+        "indice": 1,
+        "cromosoma": {},
+        "fitness": 0.012206,
+        "carpeta_conf": "configs/Semaforos/gen1_ind2",
+        "carpeta_resultados": "resultados/gen1_ind2"
+    },
+    {
+        "indice": 2,
+        "cromosoma": {},
+        "fitness": 0.012206,
+        "carpeta_conf": "configs/Semaforos/gen1_ind3",
+        "carpeta_resultados": "resultados/gen1_ind3"
+    },
+    {
+        "indice": 3,
+        "cromosoma": {},
+        "fitness": 0.012206,
+        "carpeta_conf": "configs/Semaforos/gen1_ind4",
+        "carpeta_resultados": "resultados/gen1_ind4"
+    }
+]
