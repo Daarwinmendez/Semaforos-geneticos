@@ -1,0 +1,32 @@
+{
+    "id": "308512659",
+    "type": 3,
+    "programID": "0",
+    "offset": 26,
+    "phases": [
+        {
+            "duration": 15.1,
+            "state": "GGggGGGgrrrr",
+            "minDur": 5.0,
+            "maxDur": 50.0
+        },
+        {
+            "duration": 5.0,
+            "state": "yyyyyyyyrrrr",
+            "minDur": 5.0,
+            "maxDur": 5.0
+        },
+        {
+            "duration": 49.5,
+            "state": "rrrrrrrrGGGG",
+            "minDur": 10.0,
+            "maxDur": 50.0
+        },
+        {
+            "duration": 5.0,
+            "state": "rrrrrrrryyyy",
+            "minDur": 5.0,
+            "maxDur": 5.0
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "id": "joinedS_308495714_4152158087",
+    "type": 3,
+    "programID": "0",
+    "offset": 0,
+    "phases": [
+        {
+            "duration": 33.0,
+            "state": "rrrGGGGGrrrrGGGGGrrr",
+            "minDur": 13.0,
+            "maxDur": 50.0
+        },
+        {
+            "duration": 6.0,
+            "state": "rrryyyyyrrrryyyyyrrr",
+            "minDur": 6.0,
+            "maxDur": 6.0
+        },
+        {
+            "duration": 33.0,
+            "state": "GGGrrrrrGGGgrrrrrGgg",
+            "minDur": 5.0,
+            "maxDur": 50.0
+        },
+        {
+            "duration": 6.0,
+            "state": "GGGrrrrryyyyrrrrrGgg",
+            "minDur": 6.0,
+            "maxDur": 6.0
+        },
+        {
+            "duration": 6.0,
+            "state": "GGGrrrrrrrrrrrrrrGGG",
+            "minDur": 5.0,
+            "maxDur": 50.0
+        },
+        {
+            "duration": 6.0,
+            "state": "yyyrrrrrrrrrrrrrryyy",
+            "minDur": 6.0,
+            "maxDur": 6.0
+        }
+    ]
+}
