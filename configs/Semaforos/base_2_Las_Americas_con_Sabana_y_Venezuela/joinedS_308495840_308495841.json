@@ -1,0 +1,32 @@
+{
+    "id": "joinedS_308495840_308495841",
+    "type": 3,
+    "programID": "0",
+    "offset": 0,
+    "phases": [
+        {
+            "duration": 39.0,
+            "state": "rrrGGGGGrrrrrrGGGG",
+            "minDur": 13.0,
+            "maxDur": 50.0
+        },
+        {
+            "duration": 6.0,
+            "state": "rrryyyyyrrrrrryyyy",
+            "minDur": 6.0,
+            "maxDur": 6.0
+        },
+        {
+            "duration": 39.0,
+            "state": "GGgrrrrrGggGGGrrrr",
+            "minDur": 13.0,
+            "maxDur": 50.0
+        },
+        {
+            "duration": 6.0,
+            "state": "yyyrrrrryyyyyyrrrr",
+            "minDur": 6.0,
+            "maxDur": 6.0
+        }
+    ]
+}
