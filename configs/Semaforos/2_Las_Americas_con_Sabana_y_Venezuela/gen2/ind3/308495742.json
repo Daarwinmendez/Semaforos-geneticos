@@ -5,7 +5,7 @@
     "offset": 28,
     "phases": [
         {
-            "duration": 21.1,
+            "duration": 18.2,
             "state": "GGGrrrrrrGGrrrrrrr",
             "minDur": 13.0,
             "maxDur": 50.0
@@ -17,7 +17,7 @@
             "maxDur": 6.0
         },
         {
-            "duration": 38.5,
+            "duration": 38.4,
             "state": "rrrGGrrrrrrGGrrrrr",
             "minDur": 13.0,
             "maxDur": 50.0
@@ -29,7 +29,7 @@
             "maxDur": 6.0
         },
         {
-            "duration": 42.1,
+            "duration": 30.9,
             "state": "rrrrrGGrrrrrrGGGgg",
             "minDur": 13.0,
             "maxDur": 50.0
@@ -41,7 +41,7 @@
             "maxDur": 6.0
         },
         {
-            "duration": 22.5,
+            "duration": 38.6,
             "state": "rrrrrrrGGrrrrrrrGG",
             "minDur": 13.0,
             "maxDur": 50.0

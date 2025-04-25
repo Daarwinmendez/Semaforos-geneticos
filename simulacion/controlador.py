@@ -2,7 +2,7 @@ import os, json, random
 import traci
 from simulacion.metrics_logger import MetricsLogger
 
-# ---------- APLICA CROMOSOMA ---------- #
+# Aplicación de la configuración de un cromosoma a un semáforo en SUMO
 def aplicar_configuracion_cromosoma(carpeta_config: str) -> None:
     """
     Lee los JSON generados por el AG y aplica la lógica estática completa
@@ -22,17 +22,17 @@ def aplicar_configuracion_cromosoma(carpeta_config: str) -> None:
         tls_id = cfg["id"]
         offset = int(cfg.get("offset", 0))
 
-        # —— obligamos a lógica ESTÁTICA —— #
+        # obligamos a lógica ESTÁTICA
         phases = []
         for fase in cfg["phases"]:
             dur = round(fase["duration"])
             state = fase["state"]
             phases.append(
                 traci.trafficlight.Phase(
-                    dur,               # duration
-                    state,             # state string
-                    dur,               # minDur  = dur
-                    dur                # maxDur  = dur
+                    dur,              
+                    state,             
+                    dur,               
+                    dur                
                 )
             )
 
@@ -44,12 +44,11 @@ def aplicar_configuracion_cromosoma(carpeta_config: str) -> None:
         )
         setattr(logic, "offset", offset) 
         traci.trafficlight.setProgramLogic(tls_id, logic)
-        # traci.trafficlight.setOffset(tls_id, offset)  # TraCI ≥ 1.17
 
         print(f"[✔] TLS {tls_id} aplicado | offset={offset} | fases={[p.duration for p in phases]}")
 
 
-# ---------- CORRE SIMULACIÓN ---------- #
+# Corre la simulación de SUMO con la configuración de un cromosoma
 def correr_simulacion_limited(
         cfg_path: str,
         steps: int = 500,

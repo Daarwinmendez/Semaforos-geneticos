@@ -2,10 +2,10 @@
     "id": "308827770",
     "type": 3,
     "programID": "0",
-    "offset": 28,
+    "offset": 11,
     "phases": [
         {
-            "duration": 45.3,
+            "duration": 16.8,
             "state": "GGrrr",
             "minDur": 5.0,
             "maxDur": 50.0
@@ -17,7 +17,7 @@
             "maxDur": 6.0
         },
         {
-            "duration": 34.8,
+            "duration": 14.8,
             "state": "rrGGG",
             "minDur": 13.0,
             "maxDur": 50.0

@@ -1,0 +1,44 @@
+{
+    "id": "4697738917",
+    "type": 3,
+    "programID": "0",
+    "offset": 2,
+    "phases": [
+        {
+            "duration": 37.5,
+            "state": "GGGrrrrrr",
+            "minDur": 13.0,
+            "maxDur": 50.0
+        },
+        {
+            "duration": 6.0,
+            "state": "yyyrrrrrr",
+            "minDur": 6.0,
+            "maxDur": 6.0
+        },
+        {
+            "duration": 29.8,
+            "state": "rrrGGGrrr",
+            "minDur": 13.0,
+            "maxDur": 50.0
+        },
+        {
+            "duration": 6.0,
+            "state": "rrryyyrrr",
+            "minDur": 6.0,
+            "maxDur": 6.0
+        },
+        {
+            "duration": 34.3,
+            "state": "rrrrrrGGG",
+            "minDur": 5.0,
+            "maxDur": 50.0
+        },
+        {
+            "duration": 6.0,
+            "state": "rrrrrryyy",
+            "minDur": 6.0,
+            "maxDur": 6.0
+        }
+    ]
+}

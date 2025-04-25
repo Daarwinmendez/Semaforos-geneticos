@@ -5,7 +5,7 @@
     "offset": 21,
     "phases": [
         {
-            "duration": 45.7,
+            "duration": 43.5,
             "state": "GGGrrr",
             "minDur": 5.0,
             "maxDur": 50.0
@@ -17,7 +17,7 @@
             "maxDur": 6.0
         },
         {
-            "duration": 30.3,
+            "duration": 42.1,
             "state": "rrrGGG",
             "minDur": 13.0,
             "maxDur": 50.0

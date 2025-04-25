@@ -45,9 +45,3 @@ def generar_poblacion_inicial(carpeta_semaforos, n_pobladores=10, seed=None):
             cromosoma[s_id] = config
         poblacion.append(cromosoma)
     return poblacion
-
-# Ejemplo de uso directo:
-if __name__ == "__main__":
-    poblacion = generar_poblacion_inicial(r"C:\Users\micha\OneDrive\Documentos\Cosas-de-la-Uni\Tareas-y-Trabajos-de-IA-Distribuida\-Proyectos-de-DAI\Proyecto Final\Semaforos-geneticos\configs\Semaforos\iter_1", n_pobladores=3)
-    import pprint
-    pprint.pprint(poblacion[0])

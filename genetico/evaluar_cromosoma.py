@@ -6,6 +6,7 @@ import os
 from genetico.fitness import calcular_fitness_desde_csv
 
 def evaluar_cromosoma(cfg_path, carpeta_semaforos, cromosoma, steps=200, carpeta_resultados="resultados/tmp_eval"):
+
     from genetico.aplicar_cromosoma import aplicar_cromosoma_a_jsons
 
     aplicar_cromosoma_a_jsons(cromosoma, carpeta_semaforos)
