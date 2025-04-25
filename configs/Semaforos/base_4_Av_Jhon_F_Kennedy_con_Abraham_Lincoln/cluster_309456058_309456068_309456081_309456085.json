@@ -1,0 +1,44 @@
+{
+    "id": "cluster_309456058_309456068_309456081_309456085",
+    "type": 3,
+    "programID": "0",
+    "offset": 0,
+    "phases": [
+        {
+            "duration": 33.0,
+            "state": "GGGGggrrrrrrGGGGggrrrrr",
+            "minDur": 7.0,
+            "maxDur": 50.0
+        },
+        {
+            "duration": 6.0,
+            "state": "yyyyyyrrrrrryyyyyyrrrrr",
+            "minDur": 6.0,
+            "maxDur": 6.0
+        },
+        {
+            "duration": 33.0,
+            "state": "rrrrrrGGGGrrrrrrrrGGGrr",
+            "minDur": 13.0,
+            "maxDur": 50.0
+        },
+        {
+            "duration": 6.0,
+            "state": "rrrrrryyyyrrrrrrrryyyrr",
+            "minDur": 6.0,
+            "maxDur": 6.0
+        },
+        {
+            "duration": 6.0,
+            "state": "rrrrrrrrrrGGrrrrrrrrrGG",
+            "minDur": 13.0,
+            "maxDur": 50.0
+        },
+        {
+            "duration": 6.0,
+            "state": "rrrrrrrrrryyrrrrrrrrryy",
+            "minDur": 6.0,
+            "maxDur": 6.0
+        }
+    ]
+}

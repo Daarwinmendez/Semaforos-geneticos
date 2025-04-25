@@ -1,0 +1,28 @@
+[
+    {
+        "generacion": 1,
+        "mejor": {
+            "indice": 5,
+            "cromosoma": {},
+            "fitness": 0.355189,
+            "files": {
+                "metrics": "resultados\\3_Zona_Megacentro_(Av_San_Vicente_P)\\gen1\\ind5\\metrics.csv",
+                "rage": "resultados\\3_Zona_Megacentro_(Av_San_Vicente_P)\\gen1\\ind5\\rage.csv",
+                "semaforo": "resultados\\3_Zona_Megacentro_(Av_San_Vicente_P)\\gen1\\ind5\\semaforos.csv"
+            }
+        }
+    },
+    {
+        "generacion": 2,
+        "mejor": {
+            "indice": 6,
+            "cromosoma": {},
+            "fitness": 0.346672,
+            "files": {
+                "metrics": "resultados\\3_Zona_Megacentro_(Av_San_Vicente_P)\\gen2\\ind6\\metrics.csv",
+                "rage": "resultados\\3_Zona_Megacentro_(Av_San_Vicente_P)\\gen2\\ind6\\rage.csv",
+                "semaforo": "resultados\\3_Zona_Megacentro_(Av_San_Vicente_P)\\gen2\\ind6\\semaforos.csv"
+            }
+        }
+    }
+]

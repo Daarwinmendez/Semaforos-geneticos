@@ -1,0 +1,56 @@
+{
+    "id": "cluster_11612234622_11920224074_309481227_4121496204",
+    "type": 3,
+    "programID": "0",
+    "offset": 0,
+    "phases": [
+        {
+            "duration": 20.0,
+            "state": "rrrrrGGGGrrrrrrrrrrrrrGGGrrr",
+            "minDur": 13.0,
+            "maxDur": 50.0
+        },
+        {
+            "duration": 6.0,
+            "state": "rrrrryyyyrrrrrrrrrrrrryyyrrr",
+            "minDur": 6.0,
+            "maxDur": 6.0
+        },
+        {
+            "duration": 6.0,
+            "state": "rrrrrrrrrGGrrrrrrrrrrrrrrGGG",
+            "minDur": 13.0,
+            "maxDur": 50.0
+        },
+        {
+            "duration": 6.0,
+            "state": "rrrrrrrrryyrrrrrrrrrrrrrryyy",
+            "minDur": 6.0,
+            "maxDur": 6.0
+        },
+        {
+            "duration": 20.0,
+            "state": "GGgggrrrrrrGGGggrrrrrrrrrrrr",
+            "minDur": 5.0,
+            "maxDur": 50.0
+        },
+        {
+            "duration": 6.0,
+            "state": "yyyyyrrrrrryyyyyrrrrrrrrrrrr",
+            "minDur": 6.0,
+            "maxDur": 6.0
+        },
+        {
+            "duration": 20.0,
+            "state": "rrrrrrrrrrrrrrrrGGGGGGrrrrrr",
+            "minDur": 13.0,
+            "maxDur": 50.0
+        },
+        {
+            "duration": 6.0,
+            "state": "rrrrrrrrrrrrrrrryyyyyyrrrrrr",
+            "minDur": 6.0,
+            "maxDur": 6.0
+        }
+    ]
+}

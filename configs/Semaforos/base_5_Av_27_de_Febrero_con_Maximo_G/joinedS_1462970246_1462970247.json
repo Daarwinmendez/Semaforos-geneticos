@@ -1,0 +1,32 @@
+{
+    "id": "joinedS_1462970246_1462970247",
+    "type": 3,
+    "programID": "0",
+    "offset": 0,
+    "phases": [
+        {
+            "duration": 41.0,
+            "state": "rrGGGGGGGGrrrr",
+            "minDur": 7.0,
+            "maxDur": 50.0
+        },
+        {
+            "duration": 4.0,
+            "state": "rryyyGyyyyrrrr",
+            "minDur": 4.0,
+            "maxDur": 4.0
+        },
+        {
+            "duration": 41.0,
+            "state": "GGrrrGrrrrGGGG",
+            "minDur": 5.0,
+            "maxDur": 50.0
+        },
+        {
+            "duration": 4.0,
+            "state": "yyrrrGrrrryyyy",
+            "minDur": 4.0,
+            "maxDur": 4.0
+        }
+    ]
+}
