@@ -2,26 +2,23 @@ import os, random
 from pathlib import Path
 import traci
 
-# ── módulos del proyecto ────────────────────────────────────────────────────
+# módulos del proyecto 
 from genetico.generar_poblacion_inicial import generar_poblacion_inicial
-from genetico.cromosoma                 import crossover_cromosomas, mutar_cromosoma
-from genetico.aplicar_cromosoma         import aplicar_cromosoma_a_jsons
-from genetico.seleccion_prob            import seleccionar_padres_probabilidad
-from genetico.fitness                   import calcular_fitness_desde_csv
-from genetico.guardar_resultados        import guardar_resultados_generacion
-from genetico.benchmark                 import guardar_benchmark_generacion
-from genetico.guardar_mejores           import guardar_mejores_por_generacion
-from genetico.graficar_fitness          import graficar_fitness_generaciones
-
-from simulacion.controlador             import correr_simulacion_limited
-from utils.analisis_road_rage           import analizar_road_rage
-from utils.resumen_por_semaforo         import resumen_por_semaforo
-from utils.extractor                    import extraer_configuraciones_semaforos
-# ────────────────────────────────────────────────────────────────────────────
-
+from genetico.cromosoma import crossover_cromosomas, mutar_cromosoma
+from genetico.aplicar_cromosoma import aplicar_cromosoma_a_jsons
+from genetico.seleccion_prob import seleccionar_padres_probabilidad
+from genetico.fitness import calcular_fitness_desde_csv
+from genetico.guardar_resultados import guardar_resultados_generacion
+from genetico.benchmark import guardar_benchmark_generacion
+from genetico.guardar_mejores import guardar_mejores_por_generacion
+from genetico.graficar_fitness  import graficar_fitness_generaciones
+from simulacion.controlador import correr_simulacion_limited
+from utils.analisis_road_rage import analizar_road_rage
+from utils.resumen_por_semaforo import resumen_por_semaforo
+from utils.extractor import extraer_configuraciones_semaforos
 
 def general(escenario_nombre) -> None:
-    # ─── parámetros generales ──────────────────────────────────────────────
+    # parámetros generales
     escenario_id     = escenario_nombre.replace(" ", "_").replace(".", "")
     escenario_path   = f"Escenarios/{escenario_nombre}/osm.sumocfg"
 
@@ -29,26 +26,23 @@ def general(escenario_nombre) -> None:
     ruta_escenario   = Path("resultados") / escenario_id
     ruta_escenario.mkdir(parents=True, exist_ok=True)
 
-    n_pobladores   = 8
-    n_generaciones = 2
+    n_pobladores   = 10
+    n_generaciones = 8
     selection_rate = 0.5
-    prob_mutacion  = 0.7
-    sim_steps      = 200
-    # ───────────────────────────────────────────────────────────────────────
+    prob_mutacion  = 0.45
+    sim_steps      = 800
 
-    # ─── extraer confs base si no existen ──────────────────────────────────
+    # extraer confs base si no existen 
     if not (os.path.exists(base_semaforos) and os.listdir(base_semaforos)):
         print("[INFO] Extrayendo configuraciones base…")
         extraer_configuraciones_semaforos(escenario_path, base_semaforos)
-    # ───────────────────────────────────────────────────────────────────────
 
-    # ─── población inicial ────────────────────────────────────────────────
+    # población inicial
     poblacion         = generar_poblacion_inicial(base_semaforos, n_pobladores)
     benchmark_fitness = []
     mejores_generales = []
-    # ───────────────────────────────────────────────────────────────────────
 
-    # ─── bucle de generaciones ────────────────────────────────────────────
+    # bucle de generaciones
     for gen in range(1, n_generaciones + 1):
         print(f"\n=== GENERACIÓN {gen} ===")
         gen_dir    = ruta_escenario / f"gen{gen}"
@@ -69,7 +63,7 @@ def general(escenario_nombre) -> None:
             rage_csv    = ind_dir / "rage.csv"
             sem_csv     = ind_dir / "semaforos.csv"
 
-            # ── simulación ───────────────────────────────────────────────
+            # simulación
             correr_simulacion_limited(
                 cfg_path=escenario_path,
                 steps=sim_steps,
@@ -80,7 +74,6 @@ def general(escenario_nombre) -> None:
 
             analizar_road_rage(str(metrics_csv), str(rage_csv))
             resumen_por_semaforo(str(metrics_csv), str(sem_csv))
-            # ─────────────────────────────────────────────────────────────
 
             fitness_val = calcular_fitness_desde_csv(str(rage_csv))
             print(f"[INFO] Fitness cromosoma {idx}: {fitness_val:.6f}")
@@ -96,7 +89,7 @@ def general(escenario_nombre) -> None:
                 }
             })
 
-        # ─── persistir resultados de la generación ───────────────────────
+        # persistir resultados de la generación 
         nombre_json = gen_dir / f"resultados_generacion_{gen}.json"
         guardar_resultados_generacion(resultados, nombre_archivo=str(nombre_json))
 
@@ -111,7 +104,7 @@ def general(escenario_nombre) -> None:
         mejor_gen = max(resultados, key=lambda r: r["fitness"])
         mejores_generales.append({"generacion": gen, "mejor": mejor_gen})
 
-        # ─── selección, cruce y mutación ─────────────────────────────────
+        # selección, cruce y mutación
         padres_pool = seleccionar_padres_probabilidad(
             path_resultados_json=str(nombre_json),
             k=int(n_pobladores * selection_rate)
@@ -125,12 +118,11 @@ def general(escenario_nombre) -> None:
             hijos.append(hijo)
 
         poblacion = padres_pool + hijos
-    # ───────────────────────────────────────────────────────────────────────
 
-    # ─── reportes globales ────────────────────────────────────────────────
+    # reportes globales
     guardar_benchmark_generacion(
         benchmark_fitness,
-        ruta_escenario,               # carpeta_cont
+        ruta_escenario,              
         "benchmark_generaciones.csv"
     )
     guardar_mejores_por_generacion(
@@ -142,9 +134,8 @@ def general(escenario_nombre) -> None:
         benchmark_fitness,
         nombre_img=str(ruta_escenario / "fitness_evolucion.png")
     )
-    # ───────────────────────────────────────────────────────────────────────
 
-    # ─── simulación final del mejor global ────────────────────────────────
+    # simulación final del mejor global
     mejor_global  = max((g["mejor"] for g in mejores_generales), key=lambda r: r["fitness"])
     cromosoma_top = mejor_global["cromosoma"]
 
@@ -165,16 +156,14 @@ def general(escenario_nombre) -> None:
     )
     analizar_road_rage(str(metrics_top), str(rage_top))
     resumen_por_semaforo(str(metrics_top), str(sem_top))
-    # ───────────────────────────────────────────────────────────────────────
 
-# --- al descubrir escenarios ---
+# al descubrir escenarios 
 def escenarios_validos(root="Escenarios"):
     for nombre in os.listdir(root):
         ruta = Path(root) / nombre
         if ruta.is_dir() and any(ruta.glob("*.sumocfg")):
             yield nombre
 
-# --------------------------------------------------------------------------------
 if __name__ == "__main__":
     for escenario in escenarios_validos():
         print(f"\n=== ESCENARIO: {escenario} ===")

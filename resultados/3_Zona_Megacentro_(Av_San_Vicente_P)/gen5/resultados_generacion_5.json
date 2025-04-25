@@ -1,0 +1,102 @@
+[
+    {
+        "indice": 1,
+        "cromosoma": {},
+        "fitness": 0.106454,
+        "files": {
+            "metrics": "resultados\\3_Zona_Megacentro_(Av_San_Vicente_P)\\gen5\\ind1\\metrics.csv",
+            "rage": "resultados\\3_Zona_Megacentro_(Av_San_Vicente_P)\\gen5\\ind1\\rage.csv",
+            "semaforo": "resultados\\3_Zona_Megacentro_(Av_San_Vicente_P)\\gen5\\ind1\\semaforos.csv"
+        }
+    },
+    {
+        "indice": 2,
+        "cromosoma": {},
+        "fitness": 0.113261,
+        "files": {
+            "metrics": "resultados\\3_Zona_Megacentro_(Av_San_Vicente_P)\\gen5\\ind2\\metrics.csv",
+            "rage": "resultados\\3_Zona_Megacentro_(Av_San_Vicente_P)\\gen5\\ind2\\rage.csv",
+            "semaforo": "resultados\\3_Zona_Megacentro_(Av_San_Vicente_P)\\gen5\\ind2\\semaforos.csv"
+        }
+    },
+    {
+        "indice": 3,
+        "cromosoma": {},
+        "fitness": 0.12199,
+        "files": {
+            "metrics": "resultados\\3_Zona_Megacentro_(Av_San_Vicente_P)\\gen5\\ind3\\metrics.csv",
+            "rage": "resultados\\3_Zona_Megacentro_(Av_San_Vicente_P)\\gen5\\ind3\\rage.csv",
+            "semaforo": "resultados\\3_Zona_Megacentro_(Av_San_Vicente_P)\\gen5\\ind3\\semaforos.csv"
+        }
+    },
+    {
+        "indice": 4,
+        "cromosoma": {},
+        "fitness": 0.100701,
+        "files": {
+            "metrics": "resultados\\3_Zona_Megacentro_(Av_San_Vicente_P)\\gen5\\ind4\\metrics.csv",
+            "rage": "resultados\\3_Zona_Megacentro_(Av_San_Vicente_P)\\gen5\\ind4\\rage.csv",
+            "semaforo": "resultados\\3_Zona_Megacentro_(Av_San_Vicente_P)\\gen5\\ind4\\semaforos.csv"
+        }
+    },
+    {
+        "indice": 5,
+        "cromosoma": {},
+        "fitness": 0.12025,
+        "files": {
+            "metrics": "resultados\\3_Zona_Megacentro_(Av_San_Vicente_P)\\gen5\\ind5\\metrics.csv",
+            "rage": "resultados\\3_Zona_Megacentro_(Av_San_Vicente_P)\\gen5\\ind5\\rage.csv",
+            "semaforo": "resultados\\3_Zona_Megacentro_(Av_San_Vicente_P)\\gen5\\ind5\\semaforos.csv"
+        }
+    },
+    {
+        "indice": 6,
+        "cromosoma": {},
+        "fitness": 0.104421,
+        "files": {
+            "metrics": "resultados\\3_Zona_Megacentro_(Av_San_Vicente_P)\\gen5\\ind6\\metrics.csv",
+            "rage": "resultados\\3_Zona_Megacentro_(Av_San_Vicente_P)\\gen5\\ind6\\rage.csv",
+            "semaforo": "resultados\\3_Zona_Megacentro_(Av_San_Vicente_P)\\gen5\\ind6\\semaforos.csv"
+        }
+    },
+    {
+        "indice": 7,
+        "cromosoma": {},
+        "fitness": 0.101986,
+        "files": {
+            "metrics": "resultados\\3_Zona_Megacentro_(Av_San_Vicente_P)\\gen5\\ind7\\metrics.csv",
+            "rage": "resultados\\3_Zona_Megacentro_(Av_San_Vicente_P)\\gen5\\ind7\\rage.csv",
+            "semaforo": "resultados\\3_Zona_Megacentro_(Av_San_Vicente_P)\\gen5\\ind7\\semaforos.csv"
+        }
+    },
+    {
+        "indice": 8,
+        "cromosoma": {},
+        "fitness": 0.108911,
+        "files": {
+            "metrics": "resultados\\3_Zona_Megacentro_(Av_San_Vicente_P)\\gen5\\ind8\\metrics.csv",
+            "rage": "resultados\\3_Zona_Megacentro_(Av_San_Vicente_P)\\gen5\\ind8\\rage.csv",
+            "semaforo": "resultados\\3_Zona_Megacentro_(Av_San_Vicente_P)\\gen5\\ind8\\semaforos.csv"
+        }
+    },
+    {
+        "indice": 9,
+        "cromosoma": {},
+        "fitness": 0.109034,
+        "files": {
+            "metrics": "resultados\\3_Zona_Megacentro_(Av_San_Vicente_P)\\gen5\\ind9\\metrics.csv",
+            "rage": "resultados\\3_Zona_Megacentro_(Av_San_Vicente_P)\\gen5\\ind9\\rage.csv",
+            "semaforo": "resultados\\3_Zona_Megacentro_(Av_San_Vicente_P)\\gen5\\ind9\\semaforos.csv"
+        }
+    },
+    {
+        "indice": 10,
+        "cromosoma": {},
+        "fitness": 0.106073,
+        "files": {
+            "metrics": "resultados\\3_Zona_Megacentro_(Av_San_Vicente_P)\\gen5\\ind10\\metrics.csv",
+            "rage": "resultados\\3_Zona_Megacentro_(Av_San_Vicente_P)\\gen5\\ind10\\rage.csv",
+            "semaforo": "resultados\\3_Zona_Megacentro_(Av_San_Vicente_P)\\gen5\\ind10\\semaforos.csv"
+        }
+    }
+]

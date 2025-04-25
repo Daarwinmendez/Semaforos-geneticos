@@ -1,0 +1,4072 @@
+[
+    {
+        "indice": 1,
+        "cromosoma": {
+            "1462970251": {
+                "id": "1462970251",
+                "type": 3,
+                "programID": "0",
+                "offset": 15,
+                "phases": [
+                    {
+                        "duration": 47.5,
+                        "state": "GGGGrr",
+                        "minDur": 7.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 4.0,
+                        "state": "yyyyrr",
+                        "minDur": 4.0,
+                        "maxDur": 4.0
+                    },
+                    {
+                        "duration": 37.7,
+                        "state": "rrrrGG",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 4.0,
+                        "state": "rrrryy",
+                        "minDur": 4.0,
+                        "maxDur": 4.0
+                    }
+                ]
+            },
+            "308689405": {
+                "id": "308689405",
+                "type": 3,
+                "programID": "0",
+                "offset": 25,
+                "phases": [
+                    {
+                        "duration": 24.6,
+                        "state": "GGGrr",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 17.3,
+                        "state": "rrrGG",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "308757397": {
+                "id": "308757397",
+                "type": 3,
+                "programID": "0",
+                "offset": 21,
+                "phases": [
+                    {
+                        "duration": 32.1,
+                        "state": "GGGrrrr",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 21.4,
+                        "state": "rrrGGGG",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "308827770": {
+                "id": "308827770",
+                "type": 3,
+                "programID": "0",
+                "offset": 11,
+                "phases": [
+                    {
+                        "duration": 16.8,
+                        "state": "GGrrr",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 14.8,
+                        "state": "rrGGG",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "308856103": {
+                "id": "308856103",
+                "type": 3,
+                "programID": "0",
+                "offset": 5,
+                "phases": [
+                    {
+                        "duration": 16.4,
+                        "state": "GGGrrr",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 46.2,
+                        "state": "rrrGGG",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "308856146": {
+                "id": "308856146",
+                "type": 3,
+                "programID": "0",
+                "offset": 29,
+                "phases": [
+                    {
+                        "duration": 36.2,
+                        "state": "GGrrr",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 5.0,
+                        "state": "yyrrr",
+                        "minDur": 5.0,
+                        "maxDur": 5.0
+                    },
+                    {
+                        "duration": 37.7,
+                        "state": "rrGGG",
+                        "minDur": 10.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 5.0,
+                        "state": "rryyy",
+                        "minDur": 5.0,
+                        "maxDur": 5.0
+                    }
+                ]
+            },
+            "308898675": {
+                "id": "308898675",
+                "type": 3,
+                "programID": "0",
+                "offset": 15,
+                "phases": [
+                    {
+                        "duration": 43.3,
+                        "state": "GGGrrr",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 23.6,
+                        "state": "rrrGGG",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "308923801": {
+                "id": "308923801",
+                "type": 3,
+                "programID": "0",
+                "offset": 7,
+                "phases": [
+                    {
+                        "duration": 43.4,
+                        "state": "GGrr",
+                        "minDur": 10.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 5.0,
+                        "state": "yyrr",
+                        "minDur": 5.0,
+                        "maxDur": 5.0
+                    },
+                    {
+                        "duration": 28.9,
+                        "state": "rrGG",
+                        "minDur": 10.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 5.0,
+                        "state": "rryy",
+                        "minDur": 5.0,
+                        "maxDur": 5.0
+                    }
+                ]
+            },
+            "4088546946": {
+                "id": "4088546946",
+                "type": 3,
+                "programID": "0",
+                "offset": 5,
+                "phases": [
+                    {
+                        "duration": 46.8,
+                        "state": "GGGrrr",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 21.9,
+                        "state": "rrrGGG",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "4097839613": {
+                "id": "4097839613",
+                "type": 3,
+                "programID": "0",
+                "offset": 20,
+                "phases": [
+                    {
+                        "duration": 19.0,
+                        "state": "GGgrrrrGgg",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrrryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 34.8,
+                        "state": "rrrGGGGrrr",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyyyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "4697738917": {
+                "id": "4697738917",
+                "type": 3,
+                "programID": "0",
+                "offset": 0,
+                "phases": [
+                    {
+                        "duration": 37.5,
+                        "state": "GGGrrrrrr",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrrrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 20.1,
+                        "state": "rrrGGGrrr",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 34.4,
+                        "state": "rrrrrrGGG",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrrrrryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "4697750732": {
+                "id": "4697750732",
+                "type": 3,
+                "programID": "0",
+                "offset": 30,
+                "phases": [
+                    {
+                        "duration": 37.7,
+                        "state": "GGGrrr",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 10.7,
+                        "state": "rrrGGG",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            }
+        },
+        "fitness": 0.062004,
+        "files": {
+            "metrics": "resultados\\5_Av_27_de_Febrero_con_Maximo_G\\gen4\\ind1\\metrics.csv",
+            "rage": "resultados\\5_Av_27_de_Febrero_con_Maximo_G\\gen4\\ind1\\rage.csv",
+            "semaforo": "resultados\\5_Av_27_de_Febrero_con_Maximo_G\\gen4\\ind1\\semaforos.csv"
+        }
+    },
+    {
+        "indice": 2,
+        "cromosoma": {
+            "1462970251": {
+                "id": "1462970251",
+                "type": 3,
+                "programID": "0",
+                "offset": 15,
+                "phases": [
+                    {
+                        "duration": 47.5,
+                        "state": "GGGGrr",
+                        "minDur": 7.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 4.0,
+                        "state": "yyyyrr",
+                        "minDur": 4.0,
+                        "maxDur": 4.0
+                    },
+                    {
+                        "duration": 37.7,
+                        "state": "rrrrGG",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 4.0,
+                        "state": "rrrryy",
+                        "minDur": 4.0,
+                        "maxDur": 4.0
+                    }
+                ]
+            },
+            "308689405": {
+                "id": "308689405",
+                "type": 3,
+                "programID": "0",
+                "offset": 25,
+                "phases": [
+                    {
+                        "duration": 24.6,
+                        "state": "GGGrr",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 17.3,
+                        "state": "rrrGG",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "308757397": {
+                "id": "308757397",
+                "type": 3,
+                "programID": "0",
+                "offset": 21,
+                "phases": [
+                    {
+                        "duration": 32.1,
+                        "state": "GGGrrrr",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 21.4,
+                        "state": "rrrGGGG",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "308827770": {
+                "id": "308827770",
+                "type": 3,
+                "programID": "0",
+                "offset": 11,
+                "phases": [
+                    {
+                        "duration": 16.8,
+                        "state": "GGrrr",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 14.8,
+                        "state": "rrGGG",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "308856103": {
+                "id": "308856103",
+                "type": 3,
+                "programID": "0",
+                "offset": 5,
+                "phases": [
+                    {
+                        "duration": 16.4,
+                        "state": "GGGrrr",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 46.2,
+                        "state": "rrrGGG",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "308856146": {
+                "id": "308856146",
+                "type": 3,
+                "programID": "0",
+                "offset": 29,
+                "phases": [
+                    {
+                        "duration": 36.2,
+                        "state": "GGrrr",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 5.0,
+                        "state": "yyrrr",
+                        "minDur": 5.0,
+                        "maxDur": 5.0
+                    },
+                    {
+                        "duration": 37.7,
+                        "state": "rrGGG",
+                        "minDur": 10.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 5.0,
+                        "state": "rryyy",
+                        "minDur": 5.0,
+                        "maxDur": 5.0
+                    }
+                ]
+            },
+            "308898675": {
+                "id": "308898675",
+                "type": 3,
+                "programID": "0",
+                "offset": 15,
+                "phases": [
+                    {
+                        "duration": 43.3,
+                        "state": "GGGrrr",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 23.6,
+                        "state": "rrrGGG",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "308923801": {
+                "id": "308923801",
+                "type": 3,
+                "programID": "0",
+                "offset": 7,
+                "phases": [
+                    {
+                        "duration": 43.4,
+                        "state": "GGrr",
+                        "minDur": 10.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 5.0,
+                        "state": "yyrr",
+                        "minDur": 5.0,
+                        "maxDur": 5.0
+                    },
+                    {
+                        "duration": 28.9,
+                        "state": "rrGG",
+                        "minDur": 10.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 5.0,
+                        "state": "rryy",
+                        "minDur": 5.0,
+                        "maxDur": 5.0
+                    }
+                ]
+            },
+            "4088546946": {
+                "id": "4088546946",
+                "type": 3,
+                "programID": "0",
+                "offset": 5,
+                "phases": [
+                    {
+                        "duration": 46.8,
+                        "state": "GGGrrr",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 21.9,
+                        "state": "rrrGGG",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "4097839613": {
+                "id": "4097839613",
+                "type": 3,
+                "programID": "0",
+                "offset": 20,
+                "phases": [
+                    {
+                        "duration": 19.0,
+                        "state": "GGgrrrrGgg",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrrryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 34.8,
+                        "state": "rrrGGGGrrr",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyyyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "4697738917": {
+                "id": "4697738917",
+                "type": 3,
+                "programID": "0",
+                "offset": 0,
+                "phases": [
+                    {
+                        "duration": 37.5,
+                        "state": "GGGrrrrrr",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrrrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 20.1,
+                        "state": "rrrGGGrrr",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 34.4,
+                        "state": "rrrrrrGGG",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrrrrryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "4697750732": {
+                "id": "4697750732",
+                "type": 3,
+                "programID": "0",
+                "offset": 30,
+                "phases": [
+                    {
+                        "duration": 37.7,
+                        "state": "GGGrrr",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 10.7,
+                        "state": "rrrGGG",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            }
+        },
+        "fitness": 0.062986,
+        "files": {
+            "metrics": "resultados\\5_Av_27_de_Febrero_con_Maximo_G\\gen4\\ind2\\metrics.csv",
+            "rage": "resultados\\5_Av_27_de_Febrero_con_Maximo_G\\gen4\\ind2\\rage.csv",
+            "semaforo": "resultados\\5_Av_27_de_Febrero_con_Maximo_G\\gen4\\ind2\\semaforos.csv"
+        }
+    },
+    {
+        "indice": 3,
+        "cromosoma": {
+            "1462970251": {
+                "id": "1462970251",
+                "type": 3,
+                "programID": "0",
+                "offset": 17,
+                "phases": [
+                    {
+                        "duration": 23.6,
+                        "state": "GGGGrr",
+                        "minDur": 7.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 4.0,
+                        "state": "yyyyrr",
+                        "minDur": 4.0,
+                        "maxDur": 4.0
+                    },
+                    {
+                        "duration": 43.5,
+                        "state": "rrrrGG",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 4.0,
+                        "state": "rrrryy",
+                        "minDur": 4.0,
+                        "maxDur": 4.0
+                    }
+                ]
+            },
+            "308689405": {
+                "id": "308689405",
+                "type": 3,
+                "programID": "0",
+                "offset": 7,
+                "phases": [
+                    {
+                        "duration": 34.7,
+                        "state": "GGGrr",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 33.9,
+                        "state": "rrrGG",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "308757397": {
+                "id": "308757397",
+                "type": 3,
+                "programID": "0",
+                "offset": 14,
+                "phases": [
+                    {
+                        "duration": 24.8,
+                        "state": "GGGrrrr",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 16.8,
+                        "state": "rrrGGGG",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "308827770": {
+                "id": "308827770",
+                "type": 3,
+                "programID": "0",
+                "offset": 15,
+                "phases": [
+                    {
+                        "duration": 36.0,
+                        "state": "GGrrr",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 28.8,
+                        "state": "rrGGG",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "308856103": {
+                "id": "308856103",
+                "type": 3,
+                "programID": "0",
+                "offset": 0,
+                "phases": [
+                    {
+                        "duration": 23.8,
+                        "state": "GGGrrr",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 14.4,
+                        "state": "rrrGGG",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "308856146": {
+                "id": "308856146",
+                "type": 3,
+                "programID": "0",
+                "offset": 11,
+                "phases": [
+                    {
+                        "duration": 16.1,
+                        "state": "GGrrr",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 5.0,
+                        "state": "yyrrr",
+                        "minDur": 5.0,
+                        "maxDur": 5.0
+                    },
+                    {
+                        "duration": 16.6,
+                        "state": "rrGGG",
+                        "minDur": 10.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 5.0,
+                        "state": "rryyy",
+                        "minDur": 5.0,
+                        "maxDur": 5.0
+                    }
+                ]
+            },
+            "308898675": {
+                "id": "308898675",
+                "type": 3,
+                "programID": "0",
+                "offset": 29,
+                "phases": [
+                    {
+                        "duration": 14.6,
+                        "state": "GGGrrr",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 45.2,
+                        "state": "rrrGGG",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "308923801": {
+                "id": "308923801",
+                "type": 3,
+                "programID": "0",
+                "offset": 6,
+                "phases": [
+                    {
+                        "duration": 26.1,
+                        "state": "GGrr",
+                        "minDur": 10.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 5.0,
+                        "state": "yyrr",
+                        "minDur": 5.0,
+                        "maxDur": 5.0
+                    },
+                    {
+                        "duration": 26.5,
+                        "state": "rrGG",
+                        "minDur": 10.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 5.0,
+                        "state": "rryy",
+                        "minDur": 5.0,
+                        "maxDur": 5.0
+                    }
+                ]
+            },
+            "4088546946": {
+                "id": "4088546946",
+                "type": 3,
+                "programID": "0",
+                "offset": 28,
+                "phases": [
+                    {
+                        "duration": 33.4,
+                        "state": "GGGrrr",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 48.2,
+                        "state": "rrrGGG",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "4097839613": {
+                "id": "4097839613",
+                "type": 3,
+                "programID": "0",
+                "offset": 9,
+                "phases": [
+                    {
+                        "duration": 25.3,
+                        "state": "GGgrrrrGgg",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrrryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 18.5,
+                        "state": "rrrGGGGrrr",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyyyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "4697738917": {
+                "id": "4697738917",
+                "type": 3,
+                "programID": "0",
+                "offset": 0,
+                "phases": [
+                    {
+                        "duration": 48.6,
+                        "state": "GGGrrrrrr",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrrrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 31.5,
+                        "state": "rrrGGGrrr",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 46.4,
+                        "state": "rrrrrrGGG",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrrrrryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "4697750732": {
+                "id": "4697750732",
+                "type": 3,
+                "programID": "0",
+                "offset": 28,
+                "phases": [
+                    {
+                        "duration": 13.4,
+                        "state": "GGGrrr",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 33.1,
+                        "state": "rrrGGG",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            }
+        },
+        "fitness": 0.064443,
+        "files": {
+            "metrics": "resultados\\5_Av_27_de_Febrero_con_Maximo_G\\gen4\\ind3\\metrics.csv",
+            "rage": "resultados\\5_Av_27_de_Febrero_con_Maximo_G\\gen4\\ind3\\rage.csv",
+            "semaforo": "resultados\\5_Av_27_de_Febrero_con_Maximo_G\\gen4\\ind3\\semaforos.csv"
+        }
+    },
+    {
+        "indice": 4,
+        "cromosoma": {
+            "1462970251": {
+                "id": "1462970251",
+                "type": 3,
+                "programID": "0",
+                "offset": 12,
+                "phases": [
+                    {
+                        "duration": 17.2,
+                        "state": "GGGGrr",
+                        "minDur": 7.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 4.0,
+                        "state": "yyyyrr",
+                        "minDur": 4.0,
+                        "maxDur": 4.0
+                    },
+                    {
+                        "duration": 47.1,
+                        "state": "rrrrGG",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 4.0,
+                        "state": "rrrryy",
+                        "minDur": 4.0,
+                        "maxDur": 4.0
+                    }
+                ]
+            },
+            "308689405": {
+                "id": "308689405",
+                "type": 3,
+                "programID": "0",
+                "offset": 20,
+                "phases": [
+                    {
+                        "duration": 27.5,
+                        "state": "GGGrr",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 24.9,
+                        "state": "rrrGG",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "308757397": {
+                "id": "308757397",
+                "type": 3,
+                "programID": "0",
+                "offset": 1,
+                "phases": [
+                    {
+                        "duration": 7.9,
+                        "state": "GGGrrrr",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 18.4,
+                        "state": "rrrGGGG",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "308827770": {
+                "id": "308827770",
+                "type": 3,
+                "programID": "0",
+                "offset": 29,
+                "phases": [
+                    {
+                        "duration": 23.9,
+                        "state": "GGrrr",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 22.0,
+                        "state": "rrGGG",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "308856103": {
+                "id": "308856103",
+                "type": 3,
+                "programID": "0",
+                "offset": 0,
+                "phases": [
+                    {
+                        "duration": 23.8,
+                        "state": "GGGrrr",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 14.4,
+                        "state": "rrrGGG",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "308856146": {
+                "id": "308856146",
+                "type": 3,
+                "programID": "0",
+                "offset": 7,
+                "phases": [
+                    {
+                        "duration": 23.9,
+                        "state": "GGrrr",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 5.0,
+                        "state": "yyrrr",
+                        "minDur": 5.0,
+                        "maxDur": 5.0
+                    },
+                    {
+                        "duration": 26.4,
+                        "state": "rrGGG",
+                        "minDur": 10.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 5.0,
+                        "state": "rryyy",
+                        "minDur": 5.0,
+                        "maxDur": 5.0
+                    }
+                ]
+            },
+            "308898675": {
+                "id": "308898675",
+                "type": 3,
+                "programID": "0",
+                "offset": 19,
+                "phases": [
+                    {
+                        "duration": 14.6,
+                        "state": "GGGrrr",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 45.2,
+                        "state": "rrrGGG",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "308923801": {
+                "id": "308923801",
+                "type": 3,
+                "programID": "0",
+                "offset": 14,
+                "phases": [
+                    {
+                        "duration": 41.6,
+                        "state": "GGrr",
+                        "minDur": 10.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 5.0,
+                        "state": "yyrr",
+                        "minDur": 5.0,
+                        "maxDur": 5.0
+                    },
+                    {
+                        "duration": 21.7,
+                        "state": "rrGG",
+                        "minDur": 10.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 5.0,
+                        "state": "rryy",
+                        "minDur": 5.0,
+                        "maxDur": 5.0
+                    }
+                ]
+            },
+            "4088546946": {
+                "id": "4088546946",
+                "type": 3,
+                "programID": "0",
+                "offset": 27,
+                "phases": [
+                    {
+                        "duration": 38.8,
+                        "state": "GGGrrr",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 30.2,
+                        "state": "rrrGGG",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "4097839613": {
+                "id": "4097839613",
+                "type": 3,
+                "programID": "0",
+                "offset": 9,
+                "phases": [
+                    {
+                        "duration": 25.6,
+                        "state": "GGgrrrrGgg",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrrryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 18.5,
+                        "state": "rrrGGGGrrr",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyyyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "4697738917": {
+                "id": "4697738917",
+                "type": 3,
+                "programID": "0",
+                "offset": 14,
+                "phases": [
+                    {
+                        "duration": 15.8,
+                        "state": "GGGrrrrrr",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrrrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 28.7,
+                        "state": "rrrGGGrrr",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 9.8,
+                        "state": "rrrrrrGGG",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrrrrryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "4697750732": {
+                "id": "4697750732",
+                "type": 3,
+                "programID": "0",
+                "offset": 21,
+                "phases": [
+                    {
+                        "duration": 49.5,
+                        "state": "GGGrrr",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 8.8,
+                        "state": "rrrGGG",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            }
+        },
+        "fitness": 0.066434,
+        "files": {
+            "metrics": "resultados\\5_Av_27_de_Febrero_con_Maximo_G\\gen4\\ind4\\metrics.csv",
+            "rage": "resultados\\5_Av_27_de_Febrero_con_Maximo_G\\gen4\\ind4\\rage.csv",
+            "semaforo": "resultados\\5_Av_27_de_Febrero_con_Maximo_G\\gen4\\ind4\\semaforos.csv"
+        }
+    },
+    {
+        "indice": 5,
+        "cromosoma": {
+            "1462970251": {
+                "id": "1462970251",
+                "type": 3,
+                "programID": "0",
+                "offset": 15,
+                "phases": [
+                    {
+                        "duration": 47.5,
+                        "state": "GGGGrr",
+                        "minDur": 7.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 4.0,
+                        "state": "yyyyrr",
+                        "minDur": 4.0,
+                        "maxDur": 4.0
+                    },
+                    {
+                        "duration": 20.2,
+                        "state": "rrrrGG",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 4.0,
+                        "state": "rrrryy",
+                        "minDur": 4.0,
+                        "maxDur": 4.0
+                    }
+                ]
+            },
+            "308689405": {
+                "id": "308689405",
+                "type": 3,
+                "programID": "0",
+                "offset": 25,
+                "phases": [
+                    {
+                        "duration": 34.9,
+                        "state": "GGGrr",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 28.5,
+                        "state": "rrrGG",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "308757397": {
+                "id": "308757397",
+                "type": 3,
+                "programID": "0",
+                "offset": 23,
+                "phases": [
+                    {
+                        "duration": 35.6,
+                        "state": "GGGrrrr",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 22.2,
+                        "state": "rrrGGGG",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "308827770": {
+                "id": "308827770",
+                "type": 3,
+                "programID": "0",
+                "offset": 11,
+                "phases": [
+                    {
+                        "duration": 13.2,
+                        "state": "GGrrr",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 14.8,
+                        "state": "rrGGG",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "308856103": {
+                "id": "308856103",
+                "type": 3,
+                "programID": "0",
+                "offset": 7,
+                "phases": [
+                    {
+                        "duration": 14.5,
+                        "state": "GGGrrr",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 47.5,
+                        "state": "rrrGGG",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "308856146": {
+                "id": "308856146",
+                "type": 3,
+                "programID": "0",
+                "offset": 11,
+                "phases": [
+                    {
+                        "duration": 36.2,
+                        "state": "GGrrr",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 5.0,
+                        "state": "yyrrr",
+                        "minDur": 5.0,
+                        "maxDur": 5.0
+                    },
+                    {
+                        "duration": 37.7,
+                        "state": "rrGGG",
+                        "minDur": 10.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 5.0,
+                        "state": "rryyy",
+                        "minDur": 5.0,
+                        "maxDur": 5.0
+                    }
+                ]
+            },
+            "308898675": {
+                "id": "308898675",
+                "type": 3,
+                "programID": "0",
+                "offset": 24,
+                "phases": [
+                    {
+                        "duration": 18.9,
+                        "state": "GGGrrr",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 21.9,
+                        "state": "rrrGGG",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "308923801": {
+                "id": "308923801",
+                "type": 3,
+                "programID": "0",
+                "offset": 12,
+                "phases": [
+                    {
+                        "duration": 29.0,
+                        "state": "GGrr",
+                        "minDur": 10.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 5.0,
+                        "state": "yyrr",
+                        "minDur": 5.0,
+                        "maxDur": 5.0
+                    },
+                    {
+                        "duration": 49.5,
+                        "state": "rrGG",
+                        "minDur": 10.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 5.0,
+                        "state": "rryy",
+                        "minDur": 5.0,
+                        "maxDur": 5.0
+                    }
+                ]
+            },
+            "4088546946": {
+                "id": "4088546946",
+                "type": 3,
+                "programID": "0",
+                "offset": 11,
+                "phases": [
+                    {
+                        "duration": 31.0,
+                        "state": "GGGrrr",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 14.6,
+                        "state": "rrrGGG",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "4097839613": {
+                "id": "4097839613",
+                "type": 3,
+                "programID": "0",
+                "offset": 20,
+                "phases": [
+                    {
+                        "duration": 19.0,
+                        "state": "GGgrrrrGgg",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrrryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 34.8,
+                        "state": "rrrGGGGrrr",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyyyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "4697738917": {
+                "id": "4697738917",
+                "type": 3,
+                "programID": "0",
+                "offset": 0,
+                "phases": [
+                    {
+                        "duration": 37.5,
+                        "state": "GGGrrrrrr",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrrrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 20.1,
+                        "state": "rrrGGGrrr",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 34.4,
+                        "state": "rrrrrrGGG",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrrrrryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "4697750732": {
+                "id": "4697750732",
+                "type": 3,
+                "programID": "0",
+                "offset": 5,
+                "phases": [
+                    {
+                        "duration": 47.7,
+                        "state": "GGGrrr",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 45.6,
+                        "state": "rrrGGG",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            }
+        },
+        "fitness": 0.062203,
+        "files": {
+            "metrics": "resultados\\5_Av_27_de_Febrero_con_Maximo_G\\gen4\\ind5\\metrics.csv",
+            "rage": "resultados\\5_Av_27_de_Febrero_con_Maximo_G\\gen4\\ind5\\rage.csv",
+            "semaforo": "resultados\\5_Av_27_de_Febrero_con_Maximo_G\\gen4\\ind5\\semaforos.csv"
+        }
+    },
+    {
+        "indice": 6,
+        "cromosoma": {
+            "1462970251": {
+                "id": "1462970251",
+                "type": 3,
+                "programID": "0",
+                "offset": 15,
+                "phases": [
+                    {
+                        "duration": 47.5,
+                        "state": "GGGGrr",
+                        "minDur": 7.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 4.0,
+                        "state": "yyyyrr",
+                        "minDur": 4.0,
+                        "maxDur": 4.0
+                    },
+                    {
+                        "duration": 37.7,
+                        "state": "rrrrGG",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 4.0,
+                        "state": "rrrryy",
+                        "minDur": 4.0,
+                        "maxDur": 4.0
+                    }
+                ]
+            },
+            "308689405": {
+                "id": "308689405",
+                "type": 3,
+                "programID": "0",
+                "offset": 25,
+                "phases": [
+                    {
+                        "duration": 42.4,
+                        "state": "GGGrr",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 17.3,
+                        "state": "rrrGG",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "308757397": {
+                "id": "308757397",
+                "type": 3,
+                "programID": "0",
+                "offset": 14,
+                "phases": [
+                    {
+                        "duration": 29.1,
+                        "state": "GGGrrrr",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 16.8,
+                        "state": "rrrGGGG",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "308827770": {
+                "id": "308827770",
+                "type": 3,
+                "programID": "0",
+                "offset": 15,
+                "phases": [
+                    {
+                        "duration": 21.0,
+                        "state": "GGrrr",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 14.5,
+                        "state": "rrGGG",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "308856103": {
+                "id": "308856103",
+                "type": 3,
+                "programID": "0",
+                "offset": 20,
+                "phases": [
+                    {
+                        "duration": 23.8,
+                        "state": "GGGrrr",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 39.9,
+                        "state": "rrrGGG",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "308856146": {
+                "id": "308856146",
+                "type": 3,
+                "programID": "0",
+                "offset": 29,
+                "phases": [
+                    {
+                        "duration": 35.7,
+                        "state": "GGrrr",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 5.0,
+                        "state": "yyrrr",
+                        "minDur": 5.0,
+                        "maxDur": 5.0
+                    },
+                    {
+                        "duration": 42.2,
+                        "state": "rrGGG",
+                        "minDur": 10.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 5.0,
+                        "state": "rryyy",
+                        "minDur": 5.0,
+                        "maxDur": 5.0
+                    }
+                ]
+            },
+            "308898675": {
+                "id": "308898675",
+                "type": 3,
+                "programID": "0",
+                "offset": 15,
+                "phases": [
+                    {
+                        "duration": 43.3,
+                        "state": "GGGrrr",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 18.4,
+                        "state": "rrrGGG",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "308923801": {
+                "id": "308923801",
+                "type": 3,
+                "programID": "0",
+                "offset": 7,
+                "phases": [
+                    {
+                        "duration": 36.1,
+                        "state": "GGrr",
+                        "minDur": 10.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 5.0,
+                        "state": "yyrr",
+                        "minDur": 5.0,
+                        "maxDur": 5.0
+                    },
+                    {
+                        "duration": 42.5,
+                        "state": "rrGG",
+                        "minDur": 10.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 5.0,
+                        "state": "rryy",
+                        "minDur": 5.0,
+                        "maxDur": 5.0
+                    }
+                ]
+            },
+            "4088546946": {
+                "id": "4088546946",
+                "type": 3,
+                "programID": "0",
+                "offset": 5,
+                "phases": [
+                    {
+                        "duration": 46.8,
+                        "state": "GGGrrr",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 28.3,
+                        "state": "rrrGGG",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "4097839613": {
+                "id": "4097839613",
+                "type": 3,
+                "programID": "0",
+                "offset": 9,
+                "phases": [
+                    {
+                        "duration": 25.3,
+                        "state": "GGgrrrrGgg",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrrryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 13.0,
+                        "state": "rrrGGGGrrr",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyyyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "4697738917": {
+                "id": "4697738917",
+                "type": 3,
+                "programID": "0",
+                "offset": 0,
+                "phases": [
+                    {
+                        "duration": 37.5,
+                        "state": "GGGrrrrrr",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrrrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 20.1,
+                        "state": "rrrGGGrrr",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 34.4,
+                        "state": "rrrrrrGGG",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrrrrryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "4697750732": {
+                "id": "4697750732",
+                "type": 3,
+                "programID": "0",
+                "offset": 30,
+                "phases": [
+                    {
+                        "duration": 38.6,
+                        "state": "GGGrrr",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 10.7,
+                        "state": "rrrGGG",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            }
+        },
+        "fitness": 0.063969,
+        "files": {
+            "metrics": "resultados\\5_Av_27_de_Febrero_con_Maximo_G\\gen4\\ind6\\metrics.csv",
+            "rage": "resultados\\5_Av_27_de_Febrero_con_Maximo_G\\gen4\\ind6\\rage.csv",
+            "semaforo": "resultados\\5_Av_27_de_Febrero_con_Maximo_G\\gen4\\ind6\\semaforos.csv"
+        }
+    },
+    {
+        "indice": 7,
+        "cromosoma": {
+            "1462970251": {
+                "id": "1462970251",
+                "type": 3,
+                "programID": "0",
+                "offset": 15,
+                "phases": [
+                    {
+                        "duration": 47.5,
+                        "state": "GGGGrr",
+                        "minDur": 7.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 4.0,
+                        "state": "yyyyrr",
+                        "minDur": 4.0,
+                        "maxDur": 4.0
+                    },
+                    {
+                        "duration": 37.7,
+                        "state": "rrrrGG",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 4.0,
+                        "state": "rrrryy",
+                        "minDur": 4.0,
+                        "maxDur": 4.0
+                    }
+                ]
+            },
+            "308689405": {
+                "id": "308689405",
+                "type": 3,
+                "programID": "0",
+                "offset": 20,
+                "phases": [
+                    {
+                        "duration": 27.5,
+                        "state": "GGGrr",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 24.9,
+                        "state": "rrrGG",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "308757397": {
+                "id": "308757397",
+                "type": 3,
+                "programID": "0",
+                "offset": 9,
+                "phases": [
+                    {
+                        "duration": 7.8,
+                        "state": "GGGrrrr",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 35.0,
+                        "state": "rrrGGGG",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "308827770": {
+                "id": "308827770",
+                "type": 3,
+                "programID": "0",
+                "offset": 26,
+                "phases": [
+                    {
+                        "duration": 16.8,
+                        "state": "GGrrr",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 14.8,
+                        "state": "rrGGG",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "308856103": {
+                "id": "308856103",
+                "type": 3,
+                "programID": "0",
+                "offset": 23,
+                "phases": [
+                    {
+                        "duration": 21.9,
+                        "state": "GGGrrr",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 46.2,
+                        "state": "rrrGGG",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "308856146": {
+                "id": "308856146",
+                "type": 3,
+                "programID": "0",
+                "offset": 28,
+                "phases": [
+                    {
+                        "duration": 29.1,
+                        "state": "GGrrr",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 5.0,
+                        "state": "yyrrr",
+                        "minDur": 5.0,
+                        "maxDur": 5.0
+                    },
+                    {
+                        "duration": 38.4,
+                        "state": "rrGGG",
+                        "minDur": 10.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 5.0,
+                        "state": "rryyy",
+                        "minDur": 5.0,
+                        "maxDur": 5.0
+                    }
+                ]
+            },
+            "308898675": {
+                "id": "308898675",
+                "type": 3,
+                "programID": "0",
+                "offset": 19,
+                "phases": [
+                    {
+                        "duration": 14.6,
+                        "state": "GGGrrr",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 45.2,
+                        "state": "rrrGGG",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "308923801": {
+                "id": "308923801",
+                "type": 3,
+                "programID": "0",
+                "offset": 4,
+                "phases": [
+                    {
+                        "duration": 43.4,
+                        "state": "GGrr",
+                        "minDur": 10.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 5.0,
+                        "state": "yyrr",
+                        "minDur": 5.0,
+                        "maxDur": 5.0
+                    },
+                    {
+                        "duration": 28.9,
+                        "state": "rrGG",
+                        "minDur": 10.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 5.0,
+                        "state": "rryy",
+                        "minDur": 5.0,
+                        "maxDur": 5.0
+                    }
+                ]
+            },
+            "4088546946": {
+                "id": "4088546946",
+                "type": 3,
+                "programID": "0",
+                "offset": 19,
+                "phases": [
+                    {
+                        "duration": 46.8,
+                        "state": "GGGrrr",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 38.5,
+                        "state": "rrrGGG",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "4097839613": {
+                "id": "4097839613",
+                "type": 3,
+                "programID": "0",
+                "offset": 3,
+                "phases": [
+                    {
+                        "duration": 19.0,
+                        "state": "GGgrrrrGgg",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrrryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 34.8,
+                        "state": "rrrGGGGrrr",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyyyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "4697738917": {
+                "id": "4697738917",
+                "type": 3,
+                "programID": "0",
+                "offset": 0,
+                "phases": [
+                    {
+                        "duration": 37.5,
+                        "state": "GGGrrrrrr",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrrrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 20.1,
+                        "state": "rrrGGGrrr",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 34.4,
+                        "state": "rrrrrrGGG",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrrrrryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "4697750732": {
+                "id": "4697750732",
+                "type": 3,
+                "programID": "0",
+                "offset": 30,
+                "phases": [
+                    {
+                        "duration": 40.0,
+                        "state": "GGGrrr",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 10.7,
+                        "state": "rrrGGG",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            }
+        },
+        "fitness": 0.062133,
+        "files": {
+            "metrics": "resultados\\5_Av_27_de_Febrero_con_Maximo_G\\gen4\\ind7\\metrics.csv",
+            "rage": "resultados\\5_Av_27_de_Febrero_con_Maximo_G\\gen4\\ind7\\rage.csv",
+            "semaforo": "resultados\\5_Av_27_de_Febrero_con_Maximo_G\\gen4\\ind7\\semaforos.csv"
+        }
+    },
+    {
+        "indice": 8,
+        "cromosoma": {
+            "1462970251": {
+                "id": "1462970251",
+                "type": 3,
+                "programID": "0",
+                "offset": 17,
+                "phases": [
+                    {
+                        "duration": 35.7,
+                        "state": "GGGGrr",
+                        "minDur": 7.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 4.0,
+                        "state": "yyyyrr",
+                        "minDur": 4.0,
+                        "maxDur": 4.0
+                    },
+                    {
+                        "duration": 43.5,
+                        "state": "rrrrGG",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 4.0,
+                        "state": "rrrryy",
+                        "minDur": 4.0,
+                        "maxDur": 4.0
+                    }
+                ]
+            },
+            "308689405": {
+                "id": "308689405",
+                "type": 3,
+                "programID": "0",
+                "offset": 7,
+                "phases": [
+                    {
+                        "duration": 18.9,
+                        "state": "GGGrr",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 17.4,
+                        "state": "rrrGG",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "308757397": {
+                "id": "308757397",
+                "type": 3,
+                "programID": "0",
+                "offset": 22,
+                "phases": [
+                    {
+                        "duration": 20.2,
+                        "state": "GGGrrrr",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 49.0,
+                        "state": "rrrGGGG",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "308827770": {
+                "id": "308827770",
+                "type": 3,
+                "programID": "0",
+                "offset": 15,
+                "phases": [
+                    {
+                        "duration": 21.9,
+                        "state": "GGrrr",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 48.9,
+                        "state": "rrGGG",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "308856103": {
+                "id": "308856103",
+                "type": 3,
+                "programID": "0",
+                "offset": 3,
+                "phases": [
+                    {
+                        "duration": 33.5,
+                        "state": "GGGrrr",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 14.4,
+                        "state": "rrrGGG",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "308856146": {
+                "id": "308856146",
+                "type": 3,
+                "programID": "0",
+                "offset": 17,
+                "phases": [
+                    {
+                        "duration": 21.0,
+                        "state": "GGrrr",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 5.0,
+                        "state": "yyrrr",
+                        "minDur": 5.0,
+                        "maxDur": 5.0
+                    },
+                    {
+                        "duration": 31.4,
+                        "state": "rrGGG",
+                        "minDur": 10.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 5.0,
+                        "state": "rryyy",
+                        "minDur": 5.0,
+                        "maxDur": 5.0
+                    }
+                ]
+            },
+            "308898675": {
+                "id": "308898675",
+                "type": 3,
+                "programID": "0",
+                "offset": 29,
+                "phases": [
+                    {
+                        "duration": 14.6,
+                        "state": "GGGrrr",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 45.2,
+                        "state": "rrrGGG",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "308923801": {
+                "id": "308923801",
+                "type": 3,
+                "programID": "0",
+                "offset": 6,
+                "phases": [
+                    {
+                        "duration": 26.1,
+                        "state": "GGrr",
+                        "minDur": 10.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 5.0,
+                        "state": "yyrr",
+                        "minDur": 5.0,
+                        "maxDur": 5.0
+                    },
+                    {
+                        "duration": 26.5,
+                        "state": "rrGG",
+                        "minDur": 10.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 5.0,
+                        "state": "rryy",
+                        "minDur": 5.0,
+                        "maxDur": 5.0
+                    }
+                ]
+            },
+            "4088546946": {
+                "id": "4088546946",
+                "type": 3,
+                "programID": "0",
+                "offset": 12,
+                "phases": [
+                    {
+                        "duration": 46.8,
+                        "state": "GGGrrr",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 23.3,
+                        "state": "rrrGGG",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "4097839613": {
+                "id": "4097839613",
+                "type": 3,
+                "programID": "0",
+                "offset": 23,
+                "phases": [
+                    {
+                        "duration": 40.5,
+                        "state": "GGgrrrrGgg",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrrryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 40.4,
+                        "state": "rrrGGGGrrr",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyyyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "4697738917": {
+                "id": "4697738917",
+                "type": 3,
+                "programID": "0",
+                "offset": 0,
+                "phases": [
+                    {
+                        "duration": 37.5,
+                        "state": "GGGrrrrrr",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrrrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 20.1,
+                        "state": "rrrGGGrrr",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 34.4,
+                        "state": "rrrrrrGGG",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrrrrryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "4697750732": {
+                "id": "4697750732",
+                "type": 3,
+                "programID": "0",
+                "offset": 28,
+                "phases": [
+                    {
+                        "duration": 13.4,
+                        "state": "GGGrrr",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 33.1,
+                        "state": "rrrGGG",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            }
+        },
+        "fitness": 0.06077,
+        "files": {
+            "metrics": "resultados\\5_Av_27_de_Febrero_con_Maximo_G\\gen4\\ind8\\metrics.csv",
+            "rage": "resultados\\5_Av_27_de_Febrero_con_Maximo_G\\gen4\\ind8\\rage.csv",
+            "semaforo": "resultados\\5_Av_27_de_Febrero_con_Maximo_G\\gen4\\ind8\\semaforos.csv"
+        }
+    },
+    {
+        "indice": 9,
+        "cromosoma": {
+            "1462970251": {
+                "id": "1462970251",
+                "type": 3,
+                "programID": "0",
+                "offset": 19,
+                "phases": [
+                    {
+                        "duration": 47.5,
+                        "state": "GGGGrr",
+                        "minDur": 7.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 4.0,
+                        "state": "yyyyrr",
+                        "minDur": 4.0,
+                        "maxDur": 4.0
+                    },
+                    {
+                        "duration": 37.7,
+                        "state": "rrrrGG",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 4.0,
+                        "state": "rrrryy",
+                        "minDur": 4.0,
+                        "maxDur": 4.0
+                    }
+                ]
+            },
+            "308689405": {
+                "id": "308689405",
+                "type": 3,
+                "programID": "0",
+                "offset": 0,
+                "phases": [
+                    {
+                        "duration": 24.6,
+                        "state": "GGGrr",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 17.3,
+                        "state": "rrrGG",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "308757397": {
+                "id": "308757397",
+                "type": 3,
+                "programID": "0",
+                "offset": 7,
+                "phases": [
+                    {
+                        "duration": 30.8,
+                        "state": "GGGrrrr",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 33.3,
+                        "state": "rrrGGGG",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "308827770": {
+                "id": "308827770",
+                "type": 3,
+                "programID": "0",
+                "offset": 11,
+                "phases": [
+                    {
+                        "duration": 16.8,
+                        "state": "GGrrr",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 37.5,
+                        "state": "rrGGG",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "308856103": {
+                "id": "308856103",
+                "type": 3,
+                "programID": "0",
+                "offset": 8,
+                "phases": [
+                    {
+                        "duration": 23.8,
+                        "state": "GGGrrr",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 14.4,
+                        "state": "rrrGGG",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "308856146": {
+                "id": "308856146",
+                "type": 3,
+                "programID": "0",
+                "offset": 29,
+                "phases": [
+                    {
+                        "duration": 45.2,
+                        "state": "GGrrr",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 5.0,
+                        "state": "yyrrr",
+                        "minDur": 5.0,
+                        "maxDur": 5.0
+                    },
+                    {
+                        "duration": 37.7,
+                        "state": "rrGGG",
+                        "minDur": 10.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 5.0,
+                        "state": "rryyy",
+                        "minDur": 5.0,
+                        "maxDur": 5.0
+                    }
+                ]
+            },
+            "308898675": {
+                "id": "308898675",
+                "type": 3,
+                "programID": "0",
+                "offset": 19,
+                "phases": [
+                    {
+                        "duration": 21.3,
+                        "state": "GGGrrr",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 45.2,
+                        "state": "rrrGGG",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "308923801": {
+                "id": "308923801",
+                "type": 3,
+                "programID": "0",
+                "offset": 14,
+                "phases": [
+                    {
+                        "duration": 23.6,
+                        "state": "GGrr",
+                        "minDur": 10.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 5.0,
+                        "state": "yyrr",
+                        "minDur": 5.0,
+                        "maxDur": 5.0
+                    },
+                    {
+                        "duration": 21.7,
+                        "state": "rrGG",
+                        "minDur": 10.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 5.0,
+                        "state": "rryy",
+                        "minDur": 5.0,
+                        "maxDur": 5.0
+                    }
+                ]
+            },
+            "4088546946": {
+                "id": "4088546946",
+                "type": 3,
+                "programID": "0",
+                "offset": 5,
+                "phases": [
+                    {
+                        "duration": 46.8,
+                        "state": "GGGrrr",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 21.9,
+                        "state": "rrrGGG",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "4097839613": {
+                "id": "4097839613",
+                "type": 3,
+                "programID": "0",
+                "offset": 4,
+                "phases": [
+                    {
+                        "duration": 36.1,
+                        "state": "GGgrrrrGgg",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrrryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 17.5,
+                        "state": "rrrGGGGrrr",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyyyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "4697738917": {
+                "id": "4697738917",
+                "type": 3,
+                "programID": "0",
+                "offset": 22,
+                "phases": [
+                    {
+                        "duration": 15.8,
+                        "state": "GGGrrrrrr",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrrrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 28.7,
+                        "state": "rrrGGGrrr",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 15.3,
+                        "state": "rrrrrrGGG",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrrrrryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "4697750732": {
+                "id": "4697750732",
+                "type": 3,
+                "programID": "0",
+                "offset": 10,
+                "phases": [
+                    {
+                        "duration": 38.0,
+                        "state": "GGGrrr",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 10.2,
+                        "state": "rrrGGG",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            }
+        },
+        "fitness": 0.065095,
+        "files": {
+            "metrics": "resultados\\5_Av_27_de_Febrero_con_Maximo_G\\gen4\\ind9\\metrics.csv",
+            "rage": "resultados\\5_Av_27_de_Febrero_con_Maximo_G\\gen4\\ind9\\rage.csv",
+            "semaforo": "resultados\\5_Av_27_de_Febrero_con_Maximo_G\\gen4\\ind9\\semaforos.csv"
+        }
+    },
+    {
+        "indice": 10,
+        "cromosoma": {
+            "1462970251": {
+                "id": "1462970251",
+                "type": 3,
+                "programID": "0",
+                "offset": 15,
+                "phases": [
+                    {
+                        "duration": 45.6,
+                        "state": "GGGGrr",
+                        "minDur": 7.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 4.0,
+                        "state": "yyyyrr",
+                        "minDur": 4.0,
+                        "maxDur": 4.0
+                    },
+                    {
+                        "duration": 37.7,
+                        "state": "rrrrGG",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 4.0,
+                        "state": "rrrryy",
+                        "minDur": 4.0,
+                        "maxDur": 4.0
+                    }
+                ]
+            },
+            "308689405": {
+                "id": "308689405",
+                "type": 3,
+                "programID": "0",
+                "offset": 20,
+                "phases": [
+                    {
+                        "duration": 38.2,
+                        "state": "GGGrr",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 40.1,
+                        "state": "rrrGG",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "308757397": {
+                "id": "308757397",
+                "type": 3,
+                "programID": "0",
+                "offset": 4,
+                "phases": [
+                    {
+                        "duration": 43.0,
+                        "state": "GGGrrrr",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 18.4,
+                        "state": "rrrGGGG",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "308827770": {
+                "id": "308827770",
+                "type": 3,
+                "programID": "0",
+                "offset": 16,
+                "phases": [
+                    {
+                        "duration": 21.4,
+                        "state": "GGrrr",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 22.0,
+                        "state": "rrGGG",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "308856103": {
+                "id": "308856103",
+                "type": 3,
+                "programID": "0",
+                "offset": 5,
+                "phases": [
+                    {
+                        "duration": 16.4,
+                        "state": "GGGrrr",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 41.5,
+                        "state": "rrrGGG",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "308856146": {
+                "id": "308856146",
+                "type": 3,
+                "programID": "0",
+                "offset": 24,
+                "phases": [
+                    {
+                        "duration": 28.3,
+                        "state": "GGrrr",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 5.0,
+                        "state": "yyrrr",
+                        "minDur": 5.0,
+                        "maxDur": 5.0
+                    },
+                    {
+                        "duration": 37.7,
+                        "state": "rrGGG",
+                        "minDur": 10.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 5.0,
+                        "state": "rryyy",
+                        "minDur": 5.0,
+                        "maxDur": 5.0
+                    }
+                ]
+            },
+            "308898675": {
+                "id": "308898675",
+                "type": 3,
+                "programID": "0",
+                "offset": 15,
+                "phases": [
+                    {
+                        "duration": 43.3,
+                        "state": "GGGrrr",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 23.6,
+                        "state": "rrrGGG",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "308923801": {
+                "id": "308923801",
+                "type": 3,
+                "programID": "0",
+                "offset": 19,
+                "phases": [
+                    {
+                        "duration": 43.4,
+                        "state": "GGrr",
+                        "minDur": 10.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 5.0,
+                        "state": "yyrr",
+                        "minDur": 5.0,
+                        "maxDur": 5.0
+                    },
+                    {
+                        "duration": 38.5,
+                        "state": "rrGG",
+                        "minDur": 10.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 5.0,
+                        "state": "rryy",
+                        "minDur": 5.0,
+                        "maxDur": 5.0
+                    }
+                ]
+            },
+            "4088546946": {
+                "id": "4088546946",
+                "type": 3,
+                "programID": "0",
+                "offset": 27,
+                "phases": [
+                    {
+                        "duration": 38.8,
+                        "state": "GGGrrr",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 30.2,
+                        "state": "rrrGGG",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "4097839613": {
+                "id": "4097839613",
+                "type": 3,
+                "programID": "0",
+                "offset": 9,
+                "phases": [
+                    {
+                        "duration": 25.6,
+                        "state": "GGgrrrrGgg",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrrryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 22.7,
+                        "state": "rrrGGGGrrr",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyyyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "4697738917": {
+                "id": "4697738917",
+                "type": 3,
+                "programID": "0",
+                "offset": 0,
+                "phases": [
+                    {
+                        "duration": 37.5,
+                        "state": "GGGrrrrrr",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrrrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 44.0,
+                        "state": "rrrGGGrrr",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 6.3,
+                        "state": "rrrrrrGGG",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrrrrryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            },
+            "4697750732": {
+                "id": "4697750732",
+                "type": 3,
+                "programID": "0",
+                "offset": 16,
+                "phases": [
+                    {
+                        "duration": 29.4,
+                        "state": "GGGrrr",
+                        "minDur": 13.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "yyyrrr",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    },
+                    {
+                        "duration": 10.7,
+                        "state": "rrrGGG",
+                        "minDur": 5.0,
+                        "maxDur": 50.0
+                    },
+                    {
+                        "duration": 6.0,
+                        "state": "rrryyy",
+                        "minDur": 6.0,
+                        "maxDur": 6.0
+                    }
+                ]
+            }
+        },
+        "fitness": 0.062594,
+        "files": {
+            "metrics": "resultados\\5_Av_27_de_Febrero_con_Maximo_G\\gen4\\ind10\\metrics.csv",
+            "rage": "resultados\\5_Av_27_de_Febrero_con_Maximo_G\\gen4\\ind10\\rage.csv",
+            "semaforo": "resultados\\5_Av_27_de_Febrero_con_Maximo_G\\gen4\\ind10\\semaforos.csv"
+        }
+    }
+]

@@ -1,8 +1,6 @@
 # Funciones de ayuda, lectura/escritura XML, etc.
 import xml.etree.ElementTree as ET
 
-
-
 def contar_vehiculos(archivo_xml, etiqueta='vehicle'):
     """
     Cuenta el número de vehículos en un archivo XML.

@@ -23,7 +23,7 @@ def seleccionar_padres_probabilidad(
 
     resultados = json.loads(Path(path_resultados_json).read_text(encoding="utf-8"))
 
-    # --- extraer fitness y desplazar si hay valores <= 0 ---
+    # extraer fitness y desplazar si hay valores <= 0 
     fitness = [r["fitness"] for r in resultados]
     min_fit = min(fitness)
     if min_fit <= 0:

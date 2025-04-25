@@ -17,7 +17,7 @@ def resumen_por_semaforo(path_csv: str, salida_csv: str) -> None:
         veh_df[col] = pd.to_numeric(veh_df[col], errors="coerce")
     sem_df["queue_length"] = pd.to_numeric(sem_df["queue_length"], errors="coerce")
 
-    # ―― métricas de vehículos ――
+    # métricas de vehículos
     veh_metrics = (
         veh_df
         .groupby("semaforo_id")
@@ -34,7 +34,7 @@ def resumen_por_semaforo(path_csv: str, salida_csv: str) -> None:
     pasos_sim = df["step"].max() + 1
     veh_metrics["flujo_por_segundo"] = veh_metrics["flujo_vehicular"] / pasos_sim
 
-    # ―― colas ――
+    # colas
     queue_avg = (
         sem_df
         .groupby("semaforo_id")["queue_length"]
@@ -48,7 +48,7 @@ def resumen_por_semaforo(path_csv: str, salida_csv: str) -> None:
     Path(os.path.dirname(salida_csv)).mkdir(parents=True, exist_ok=True)
     resumen.to_csv(salida_csv, index=False)
 
-    # ―― normalización ――
+    # normalización
     normalizado = resumen.copy()
     cols_norm = ["delay", "waiting_time", "stops",
                  "flujo_vehicular", "flujo_por_segundo", "queue_length"]
