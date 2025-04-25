@@ -1,0 +1,32 @@
+{
+    "id": "GS_cluster_309541231_309541236",
+    "type": 3,
+    "programID": "0",
+    "offset": 0,
+    "phases": [
+        {
+            "duration": 39.0,
+            "state": "rrrrGGGggGGGGg",
+            "minDur": 13.0,
+            "maxDur": 50.0
+        },
+        {
+            "duration": 6.0,
+            "state": "rrrryyyyyyyyyy",
+            "minDur": 6.0,
+            "maxDur": 6.0
+        },
+        {
+            "duration": 39.0,
+            "state": "GGGGrrrrrrrrrr",
+            "minDur": 5.0,
+            "maxDur": 50.0
+        },
+        {
+            "duration": 6.0,
+            "state": "yyyyrrrrrrrrrr",
+            "minDur": 6.0,
+            "maxDur": 6.0
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "id": "cluster_307862891_307862894_307862896_307862898",
+    "type": 3,
+    "programID": "0",
+    "offset": 0,
+    "phases": [
+        {
+            "duration": 39.0,
+            "state": "rrrrrGGGGggrrrrrGGGGgg",
+            "minDur": 13.0,
+            "maxDur": 50.0
+        },
+        {
+            "duration": 6.0,
+            "state": "rrrrryyyyyyrrrrryyyyyy",
+            "minDur": 6.0,
+            "maxDur": 6.0
+        },
+        {
+            "duration": 39.0,
+            "state": "GGGggrrrrrrGGGggrrrrrr",
+            "minDur": 13.0,
+            "maxDur": 50.0
+        },
+        {
+            "duration": 6.0,
+            "state": "yyyyyrrrrrryyyyyrrrrrr",
+            "minDur": 6.0,
+            "maxDur": 6.0
+        }
+    ]
+}
